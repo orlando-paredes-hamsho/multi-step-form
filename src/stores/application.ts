@@ -1,10 +1,19 @@
+import { makeObservable, observable, action } from 'mobx';
+
 type Step = 1 | 2 | 3 | 4;
 
 class App {
   public step: Step = 1;
 
-  public setStep(step: Step): void {
+  setStep(step: Step): void {
     this.step = step;
+  }
+
+  constructor() {
+    makeObservable(this, {
+      step: observable,
+      setStep: action.bound,
+    });
   }
 }
 
