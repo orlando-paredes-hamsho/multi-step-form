@@ -30,7 +30,7 @@ export default function PrimaryContact(): JSX.Element {
       </Box>
       <Box>
         <Padding top={20} bottom={20} right={30} left={30}>
-          <Button>Next</Button>
+          <Button style={{ float: 'right' }}>Next</Button>
         </Padding>
       </Box>
     </Card>

@@ -31,7 +31,9 @@ export default function PolicyPayment(): JSX.Element {
       <Box>
         <Padding top={20} bottom={20} right={30} left={30}>
           <Button size="secondary">Back</Button>
-          <Button size="primary">Finish</Button>
+          <Button size="primary" style={{ float: 'right' }}>
+            Finish
+          </Button>
         </Padding>
       </Box>
     </Card>
