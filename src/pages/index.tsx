@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from '@/ui';
+import PrimaryContact from './primary-contact';
 
 export default function IndexPage(): JSX.Element {
-  return <Button>Click me</Button>;
+  return <PrimaryContact />;
 }
