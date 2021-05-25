@@ -16,7 +16,11 @@
   "pre-commit": [
     "lint"
   ],
+  "pre-push": [
+    "build"
+  ],
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@reach/rect": "^0.10.3",
     "@types/react-image-fallback": "^8.0.1",
     "axios": "^0.19.2",
@@ -30,6 +34,8 @@
     "libphonenumber-js": "^1.7.6",
     "lodash": "^4.17.19",
     "markdown-to-jsx": "^6.10.3",
+    "mobx": "^6.3.2",
+    "mobx-react-lite": "^3.2.0",
     "moment": "^2.24.0",
     "next": "^9.5.2",
     "react": "^16.13.1",
