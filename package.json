@@ -14,8 +14,7 @@
     "compile": "tsc"
   },
   "pre-commit": [
-    "lint",
-    "format"
+    "lint"
   ],
   "dependencies": {
     "@reach/rect": "^0.10.3",
