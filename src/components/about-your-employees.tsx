@@ -36,10 +36,10 @@ const AboutYourEmployees = observer(
         </Box>
         <Box>
           <Padding top={20} bottom={20} right={32} left={32}>
-            <Button size="secondary" onClick={() => app.setStep(app.step - 1)}>
+            <Button size="secondary" onClick={() => app.setStep(2)}>
               Back
             </Button>
-            <Button size="primary" style={{ float: 'right' }} onClick={() => app.setStep(app.step + 1)}>
+            <Button size="primary" style={{ float: 'right' }} onClick={() => app.setStep(4)}>
               Next
             </Button>
           </Padding>
