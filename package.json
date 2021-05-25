@@ -19,6 +19,7 @@
     "lint"
   ],
   "pre-push": [
+    "test",
     "build"
   ],
   "dependencies": {
