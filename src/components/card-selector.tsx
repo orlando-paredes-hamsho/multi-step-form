@@ -11,7 +11,7 @@ const CardSelector = observer(
     const { app } = props;
     switch (app.step) {
       case 1:
-        return <PrimaryContact app={app} />;
+        return <PrimaryContact app={app} form={app.primaryContactForm} />;
       case 2:
         return <AboutYourCompany app={app} />;
       case 3:
