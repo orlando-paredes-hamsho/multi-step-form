@@ -1,17 +1,20 @@
 import React from 'react';
-import PrimaryContact from '../components/primary-contact';
-// import AboutYourCompany from '../components/about-your-company';
-// import AboutYourEmployees from '../components/about-your-employees';
-// import PolicyPayment from '../components/policy-payment';
+import { observer } from 'mobx-react-lite';
+import CardSelector from '../components/card-selector';
+import App from '../stores/application';
 import Container from '../styled/container';
 import Background from '../styled/background';
 
-export default function IndexPage(): JSX.Element {
-  return (
+const app = new App();
+
+const IndexPage = observer(
+  (): JSX.Element => (
     <Background>
       <Container>
-        <PrimaryContact />
+        <CardSelector app={app} />
       </Container>
     </Background>
-  );
-}
+  ),
+);
+
+export default IndexPage;
