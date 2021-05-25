@@ -34,7 +34,7 @@
     "file-extension": "^4.0.5",
     "formik": "^2.1.4",
     "framer-motion": "^1.11.0",
-    "libphonenumber-js": "^1.7.6",
+    "libphonenumber-js": "^1.9.18",
     "lodash": "^4.17.19",
     "markdown-to-jsx": "^6.10.3",
     "mobx": "^6.3.2",

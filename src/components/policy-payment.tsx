@@ -40,7 +40,7 @@ const PolicyPayment = observer(
             <Button size="secondary" onClick={() => app.setStep(3)}>
               Back
             </Button>
-            <Button size="primary" style={{ float: 'right' }}>
+            <Button size="primary" style={{ float: 'right' }} onClick={() => alert(JSON.stringify(app.fields))}>
               Finish
             </Button>
           </Padding>
