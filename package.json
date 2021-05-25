@@ -14,7 +14,7 @@
     "compile": "tsc"
   },
   "pre-commit": [
-    "lint",
+    "lint"
   ],
   "pre-push": [
     "build"
