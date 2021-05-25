@@ -20,9 +20,11 @@ export default function AboutYourEmployees(): JSX.Element {
           >
             <Input fieldId="doctorName" type="text" isRequired />
           </Field>
-          <CheckboxRow label="Do you provide medical insurance?" />
-          <CheckboxRow label="Do you offer a retirement or pension plan?" />
-          <CheckboxRow label="Do you give paid vacation?" isActive />
+          <Padding top={20} bottom={10}>
+            <CheckboxRow label="Do you provide medical insurance?" />
+            <CheckboxRow label="Do you offer a retirement or pension plan?" />
+            <CheckboxRow label="Do you give paid vacation?" isActive />
+          </Padding>
           <Field fieldId="vacationDetails" label="Please provide details about paid vacation" hint="">
             <Input fieldId="vacationDetails" type="text" />
           </Field>

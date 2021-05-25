@@ -18,10 +18,10 @@ export default function PrimaryContact(): JSX.Element {
       <Box borderBottom={1}>
         <Padding top={20} bottom={20} right={30} left={30}>
           <Field fieldId="fullName" label="Full name" hint="">
-            <Input fieldId="fullName" type="text" isRequired />
+            <Input fieldId="fullName" type="text" style={{ marginBottom: 10 }} isRequired />
           </Field>
           <Field fieldId="role" label="Role" hint="">
-            <Input fieldId="role" type="text" />
+            <Input fieldId="role" type="text" style={{ marginBottom: 10 }} />
           </Field>
           <Field fieldId="phoneNumber" label="Phone Number" hint="">
             <Input fieldId="phoneNumber" type="text" />
