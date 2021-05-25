@@ -1,6 +1,6 @@
 import { makeObservable, observable, action } from 'mobx';
 
-type Step = 1 | 2 | 3 | 4;
+export type Step = 1 | 2 | 3 | 4;
 
 class App {
   public step: Step = 1;

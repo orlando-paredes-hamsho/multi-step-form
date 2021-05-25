@@ -33,3 +33,7 @@ jobs:
       uses: borales/actions-yarn@v2.0.0
       with:
         cmd: compile
+    - name: Test
+      uses: borales/actions-yarn@v2.0.0
+      with:
+        cmd: test

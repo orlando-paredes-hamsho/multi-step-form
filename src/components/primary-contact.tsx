@@ -34,10 +34,7 @@ const PrimaryContact = observer(
         </Box>
         <Box>
           <Padding top={20} bottom={20} right={32} left={32}>
-            <Button
-              style={{ display: 'block', marginRight: 0, marginLeft: 'auto' }}
-              onClick={() => app.setStep(app.step + 1)}
-            >
+            <Button style={{ display: 'block', marginRight: 0, marginLeft: 'auto' }} onClick={() => app.setStep(2)}>
               Next
             </Button>
           </Padding>
