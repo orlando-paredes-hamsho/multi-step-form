@@ -5,7 +5,7 @@ type Step = 1 | 2 | 3 | 4;
 class App {
   step: Step = 1;
 
-  setStep(step) {
+  setStep(step): void {
     this.step = step;
   }
 
