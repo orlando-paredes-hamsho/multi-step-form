@@ -9,8 +9,8 @@
     "start": "next start",
     "build": "next build",
     "dev": "next",
-    "lint": "eslint --ext .ts,.tsx ./src/pages",
-    "format": "prettier --write ./src/pages",
+    "lint": "eslint --ext .ts,.tsx ./src",
+    "format": "prettier --write ./src",
     "compile": "tsc"
   },
   "pre-commit": [

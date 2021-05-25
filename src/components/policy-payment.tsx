@@ -1,21 +1,23 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
 import React from 'react';
-import { Card, Box, Padding, Text, Title, Divider, SelectableRow, Button } from '@/ui';
+import { Card, Box, Padding, Title, SelectableRow, Button } from '@/ui';
 
 export default function PolicyPayment(): JSX.Element {
   return (
     <Card>
       <Box>
-        <Padding top={30} bottom={0} right={30} left={30}>
-          <Title size={20} as="h3" marginBottom={12}>
+        <Padding top={32} bottom={0} right={32} left={32}>
+          <Title size={24} as="h3" marginBottom={12}>
             How do you want to pay for your policy?
           </Title>
         </Padding>
       </Box>
       <Box borderBottom={1}>
-        <Padding top={20} bottom={20} right={30} left={30}>
+        <Padding top={20} bottom={20} right={32} left={32}>
           <SelectableRow
             title="I want to pay Newfront"
             subtitle="You'll pay Newfront instead of paying each insurance company separately. There are no fees"
+            onClick={() => {}}
             isSelected
           />
           <SelectableRow
@@ -24,12 +26,13 @@ export default function PolicyPayment(): JSX.Element {
               responsibility to make sure they are paid to keep your coverage`}
             categoryLabel="RECOMMENDED"
             categoryType="success"
+            onClick={() => {}}
             isSelected={false}
           />
         </Padding>
       </Box>
       <Box>
-        <Padding top={20} bottom={20} right={30} left={30}>
+        <Padding top={20} bottom={20} right={32} left={32}>
           <Button size="secondary">Back</Button>
           <Button size="primary" style={{ float: 'right' }}>
             Finish

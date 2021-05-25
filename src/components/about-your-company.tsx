@@ -1,18 +1,18 @@
 import React from 'react';
-import { Card, Box, Padding, Text, Title, Divider, Field, Input, Button } from '@/ui';
+import { Card, Box, Padding, Title, Field, Input, Button } from '@/ui';
 
 export default function AboutYourCompany(): JSX.Element {
   return (
     <Card>
       <Box>
-        <Padding top={30} bottom={0} right={30} left={30}>
-          <Title size={20} as="h3" marginBottom={12}>
+        <Padding top={32} bottom={0} right={32} left={32}>
+          <Title size={24} as="h3" marginBottom={12}>
             Tell us about your company
           </Title>
         </Padding>
       </Box>
       <Box borderBottom={1}>
-        <Padding top={20} bottom={20} right={30} left={30}>
+        <Padding top={20} bottom={20} right={32} left={32}>
           <Field fieldId="companyName" label="Company name" hint="">
             <Input fieldId="companyName" type="text" style={{ marginBottom: 10 }} isRequired />
           </Field>
@@ -31,7 +31,7 @@ export default function AboutYourCompany(): JSX.Element {
         </Padding>
       </Box>
       <Box>
-        <Padding top={20} bottom={20} right={30} left={30}>
+        <Padding top={20} bottom={20} right={32} left={32}>
           <Button size="secondary">Back</Button>
           <Button size="primary" style={{ float: 'right' }}>
             Next
