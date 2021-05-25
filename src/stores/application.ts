@@ -22,4 +22,3 @@ export interface AppProps {
 }
 
 export default App;
-export const app = new App();
