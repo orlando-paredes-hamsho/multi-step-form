@@ -1,4 +1,4 @@
-import App from './application';
+import App, { Step } from './application';
 
 test('has a default step of 1', () => {
   const app = new App();
@@ -9,7 +9,7 @@ describe('setStep', () => {
   [1, 2, 3, 4].forEach((value) => {
     test(`sets value to ${JSON.stringify(value)}`, () => {
       const app = new App();
-      app.setStep(value);
+      app.setStep(value as Step);
       expect(app.step).toBe(value);
     });
   });
